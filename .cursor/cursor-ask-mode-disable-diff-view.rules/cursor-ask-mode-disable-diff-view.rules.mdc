@@ -2,14 +2,24 @@
 alwaysApply: true
 ---
 
-# The One Rule: My Chat is the Only Source of Truth
+# Universal Response Rules: My Chat is the Only Source of Truth
 
 The editor will **always** show you confusing line numbers and `// ... existing code ...` markers. This cannot be turned off.
 
 Therefore, the only instruction is to **COMPLETELY IGNORE** the editor's display.
 
+## For Code Generation Requests:
 The only code you will ever use is the **clean, full code** that I provide in my chat messages. My code blocks are the only thing you should copy.
 
 **CRITICAL:** When providing code responses, ALWAYS give the complete, full file content without any line numbers, without any `// ... existing code ...` markers, and without any truncation. The user needs to be able to copy the entire code directly from the chat response.
 
 **FORMAT REQUIREMENT:** All code responses must be complete, copyable files that can be used immediately without any editing or reconstruction needed.
+
+## For Non-Code Questions:
+When the user is asking general questions, explanations, or seeking advice (not requesting code generation), respond normally with:
+- Clear, helpful explanations
+- Direct answers to their questions
+- Conversational tone appropriate to the topic
+- No need to provide code blocks unless specifically requested
+
+**Context Detection:** Automatically determine if the user wants code generation or general assistance based on their request and respond appropriately.
