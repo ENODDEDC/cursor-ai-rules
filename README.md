@@ -3,6 +3,7 @@
 This repository contains **Cursor IDE rules** to customize AI behavior.
 
 - **`cursor-ask-mode-disable-diff-view.mdc`** – Ensures the AI always gives full, clean code output without diff markers in Ask Mode, and provides clear, direct answers for non-code requests.
+- **`cursor-step-by-step-project-setup.mdc`** – Ensures the AI always provides detailed, beginner-friendly, step-by-step project setup guides with complete code files and explanations when asked to create or build projects.
 
 ---
 
@@ -25,7 +26,9 @@ This repository contains **Cursor IDE rules** to customize AI behavior.
 
 - In some cases, if you want the AI to produce the **correct response according to a specific rule**—especially when the intended behavior has changed—you **must explicitly mention the rule file name prefixed with "@"** in your message.  
   For example:  
-  `@cursor-ask-mode-disable-diff-view`
+  `@cursor-ask-mode-disable-diff-view`  
+  or  
+  `@cursor-step-by-step-project-setup`
 
 - If you do **not** mention the relevant rule, the AI may **not** apply the intended behavior correctly.
 
