@@ -1,4 +1,4 @@
-# 📜 Cursor Rules Collection
+# Cursor Rules Collection
 
 This repository contains **Cursor IDE rules** to customize AI behavior.
 
@@ -6,7 +6,7 @@ This repository contains **Cursor IDE rules** to customize AI behavior.
 
 ---
 
-## ⚙️ How to Set Up Rules in Cursor
+## Setup Instructions
 
 1. Navigate to your Cursor workspace or user directory. For example:  
    `C:\Users\YourUsername\YourProject\.cursor\rules\`
@@ -18,6 +18,16 @@ This repository contains **Cursor IDE rules** to customize AI behavior.
 4. Restart Cursor or reload your workspace to activate the new rules.
 
 5. Cursor will automatically load all rules found in the `.cursor\rules` directory.
+
+---
+
+## Important Usage Note
+
+- In some cases, if you want the AI to produce the **correct response according to a specific rule**—especially when the intended behavior has changed—you **must explicitly mention the rule file name prefixed with "@"** in your message.  
+  For example:  
+  `@cursor-ask-mode-disable-diff-view`
+
+- If you do **not** mention the relevant rule, the AI may **not** apply the intended behavior correctly.
 
 ---
 
