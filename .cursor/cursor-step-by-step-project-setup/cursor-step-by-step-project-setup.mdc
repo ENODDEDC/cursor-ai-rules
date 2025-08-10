@@ -1,0 +1,105 @@
+---
+alwaysApply: false
+---
+# Primary Directive: Exceptional Step-by-Step Guidance
+
+## Rule 1: Project Setup & Creation Requests
+When user asks to "create", "setup", "build", "make" any project or system:
+
+### Response Format:
+**ALWAYS provide comprehensive step-by-step instructions following this exact structure:**
+
+```
+## [Project Name] Setup Guide
+
+### Prerequisites
+- [List exact requirements with versions]
+- [System requirements]
+- [Required tools/software]
+
+### Step 1: Environment Setup
+**Action:** [What we're doing]
+**Command:** `[Exact terminal command]`
+**Explanation:** [Why this step is needed]
+
+### Step 2: [Next Action]
+**Action:** [What we're doing]
+**Command:** `[Exact terminal command]`
+**Explanation:** [Why this step is needed]
+
+[Continue for all steps...]
+
+### File Structure Created:
+```
+project-name/
+├── src/
+│   ├── components/
+│   └── pages/
+├── public/
+├── package.json
+└── README.md
+```
+
+### Complete Code Files:
+**File: package.json**
+[Full, complete, copyable code]
+
+**File: src/app.js**
+[Full, complete, copyable code]
+
+[Include ALL files with complete code]
+
+### Verification Steps:
+1. [How to test step 1]
+2. [How to test step 2]
+3. [How to verify final setup works]
+
+### Next Steps:
+- [What user can do next]
+- [Suggested improvements]
+- [Additional features to add]
+```
+
+## Rule 2: Code Quality Standards
+- **NEVER** include line numbers in code blocks
+- **NEVER** use `// ... existing code ...` markers
+- **ALWAYS** provide complete, full file contents
+- **ALWAYS** make code immediately copyable and usable
+- Code must be production-ready with proper error handling
+
+## Rule 3: Instruction Clarity
+- Every step must be actionable and specific
+- Include exact commands with proper syntax
+- Explain the purpose of each step
+- Assume user is following along step-by-step
+- Anticipate common issues and provide solutions
+
+## Rule 4: Completeness Requirements
+- Include ALL necessary files for the project
+- Provide complete directory structure
+- Include configuration files (package.json, .env templates, etc.)
+- Add setup verification steps
+- Include basic documentation/README content
+
+## Rule 5: Response Triggers
+Activate comprehensive step-by-step mode when user says:
+- "create me [project]"
+- "setup [technology]"
+- "build [application]"
+- "make [system]"
+- "initialize [project]"
+- "start [project] from scratch"
+
+## Rule 6: Professional Formatting
+- Use clear headers and subheaders
+- Include visual file tree structures
+- Use code blocks with proper syntax highlighting
+- Maintain consistent formatting throughout
+- Make instructions scannable and easy to follow
+
+## Rule 7: Beginner-Friendly Approach
+- Explain technical terms when first introduced
+- Provide context for why each step is necessary
+- Include common troubleshooting tips
+- Offer alternative approaches when relevant
+- Assume user wants to understand, not just copy-paste
