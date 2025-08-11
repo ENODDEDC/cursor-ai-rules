@@ -4,6 +4,7 @@ This repository contains **Cursor IDE rules** to customize AI behavior.
 
 - **`cursor-ask-mode-disable-diff-view.mdc`** – Ensures the AI always gives full, clean code output without diff markers in Ask Mode, and provides clear, direct answers for non-code requests.
 - **`cursor-step-by-step-project-setup.mdc`** – Ensures the AI always provides detailed, beginner-friendly, step-by-step project setup guides with complete code files and explanations when asked to create or build projects.
+- **`github-power-assistant.mdc`** - Transforms the AI into a **full-spectrum Git & GitHub expert**. Automatically detects Git-related queries (even indirect ones) and responds with **production-ready commands, troubleshooting steps, and best practices** for all skill levels.
 
 ---
 
